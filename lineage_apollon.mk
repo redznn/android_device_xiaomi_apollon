@@ -25,3 +25,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="apollo_global-user 12 RKQ1.211001.001 V14.0.4.0.SJDMIXM release-keys" \
     BuildFingerprint=Xiaomi/apollo_global/apollo:12/RKQ1.211001.001/V14.0.4.0.SJDMIXM:user/release-keys
+
+# Axion
+AXION_MAINTAINER := Redznn
+TARGET_ENABLE_BLUR := true
+AXION_CAMERA_REAR_INFO := 108,13,5
+AXION_CAMERA_FRONT_INFO := 20
+AXION_PROCESSOR := Snapdragon_865
